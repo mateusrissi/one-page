@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -8,12 +9,174 @@
 
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
+
 <body>
-    <h1>Olár, world!</h1>
+    <!-- Topo -->
+    <div class="container-fluid bg-topo">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img src="imagens/logo.png" height="70" class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                <div id="menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav text-light mr-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Parceiros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light font-weight-bold">Contato</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn col-md-3 btn-orcamento">Pedir orçamento</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container-fluid my-2">
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#">
+                        <img src="imagens/banner1.jpg" class="d-block w-100">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="imagens/banner2.jpg" class="d-block w-100">
+                    </a>
+                </div>
+            </div>
+            <a href="#slideshow" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a href="#slideshow" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Serviços -->
+    <div class="container-fluid bg-servicos">
+        <div class="mt-2 py-4">
+            <section class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center text-light ">
+                        O que fazemos?
+                        <span class="underline"></span>
+                    </h2>
+                </header>
+                <div class="row py-4">
+                    <div class="col-md-4">
+                        <img src="imagens/img1.png" class="img-fluid">
+                        <p class="text-center text-light mt-2">Criação de sites responsivos</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/img2.png" class="img-fluid">
+                        <p class="text-center text-light mt-2">Criação de apllicativos androids</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/img3.png" class="img-fluid">
+                        <p class="text-center text-light mt-2">Otimização de sites</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Parceiros -->
+    <div class="container-fluid py-4 bg-parceiros">
+        <div class="py-2">
+            <div class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center">
+                        Conheça nossos parceiros
+                        <span class="underline"></span>
+                    </h2>
+                </header>
+                <div class="row py-4">
+                    <div class="col-md-2 padding-parceiros">
+                        <div class="card sombra">
+                            <div class="card-body">
+                                <a href="#">
+                                    <img src="imagens/parceiro1.png" class="img-fluid mx-auto d-block">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-parceiros">
+                        <div class="card sombra">
+                            <div class="card-body">
+                                <a href="#">
+                                    <img src="imagens/parceiro2.png" class="img-fluid mx-auto d-block">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-parceiros">
+                        <div class="card sombra">
+                            <div class="card-body">
+                                <a href="#">
+                                    <img src="imagens/parceiro1.png" class="img-fluid mx-auto d-block">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-parceiros">
+                        <div class="card sombra">
+                            <div class="card-body">
+                                <a href="#">
+                                    <img src="imagens/parceiro2.png" class="img-fluid mx-auto d-block">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-parceiros">
+                        <div class="card sombra">
+                            <div class="card-body">
+                                <a href="#">
+                                    <img src="imagens/parceiro1.png" class="img-fluid mx-auto d-block">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-parceiros">
+                        <div class="card sombra">
+                            <div class="card-body">
+                                <a href="#">
+                                    <img src="imagens/parceiro2.png" class="img-fluid mx-auto d-block">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JS Boostrap -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
